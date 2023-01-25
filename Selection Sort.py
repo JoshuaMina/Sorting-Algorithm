@@ -1,7 +1,9 @@
+nums = [64, 97, 76, 20, 29, 34, 60, 89, 57, 85]
+
 def sort(nums):
-    for i in range(5):
+    for i in range(len(nums)):
         minpos = i
-        for j in range(i, 6):
+        for j in range(i, 10):
             if nums[j] < nums[minpos]:
                 minpos = j
 
@@ -11,7 +13,7 @@ def sort(nums):
 
         print(nums)
 
-nums = [64, 97, 76, 20, 29, 34, 60, 89, 57, 85]
+
 sort(nums)
 
 print(nums)
