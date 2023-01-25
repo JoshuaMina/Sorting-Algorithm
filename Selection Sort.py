@@ -6,3 +6,4 @@ def sort(nums):
                 minpos = j
 
         temp = nums[i]
+        nums[i] = nums[minpos]
