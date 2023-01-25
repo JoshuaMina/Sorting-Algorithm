@@ -8,7 +8,7 @@ def bubble(nums):
                 temp = nums[j]
                 nums[j] = nums[j + 1]
                 nums[j + 1] = temp
-
+        print("\t\t", nums)
 bubble(nums)
 
 print("\t\n The Final Sorted Array is:",nums)
