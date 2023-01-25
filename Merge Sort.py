@@ -5,3 +5,8 @@ def merge(arr):
     if len(arr) > 1:
         left_arr = arr[:len(arr)//2]
         right_arr = arr[len(arr) // 2:]
+
+        merge(left_arr)
+        merge(right_arr)
+
+        
