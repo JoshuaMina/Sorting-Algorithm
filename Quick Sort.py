@@ -3,3 +3,4 @@ print("\t The Given Unsorted Array is:", nums,"\n")
 
 def quick(arr, left, right):
     if left < right:
+        partition_pos = partition(arr,left, right)
