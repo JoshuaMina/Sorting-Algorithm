@@ -7,11 +7,13 @@ def quick(arr, left, right):
         quick(arr, left, partition_pos-1)
         quick(arr, partition_pos+1, right)
 
+
+
 def partition(arr, left, right):
     i = left
     j = right - 1
     pivot = arr[right]
-
+    print(arr)
     while i < j:
         while i < right and arr[i] < pivot:
             i += 1
@@ -23,4 +25,9 @@ def partition(arr, left, right):
     if arr[i] > pivot:
         arr[i], arr[right] = arr[right], arr[i]
 
+
     return i
+
+quick(nums, 0, len(nums)-1)
+
+print("\t\n The Final Sorted Array is:",nums)
