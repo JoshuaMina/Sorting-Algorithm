@@ -25,3 +25,13 @@ def merge(arr):
             arr[k] = left_arr[i]
             i += 1
             k += 1
+
+        while j < len(right_arr):
+            arr[k] = right_arr[j]
+            j += 1
+            k += 1
+
+        print("\t\t", arr)
+    return arr
+
+print("\t\n The Final Sorted Array is:",merge(nums))
