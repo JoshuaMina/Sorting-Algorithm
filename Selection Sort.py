@@ -4,3 +4,5 @@ def sort(nums):
         for j in range(i, 6):
             if nums[j] < nums[minpos]:
                 minpos = j
+
+        temp = nums[i]
