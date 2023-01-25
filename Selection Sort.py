@@ -1,5 +1,5 @@
 nums = [64, 97, 76, 20, 29, 34, 60, 89, 57, 85]
-
+print("\t The Given Unsorted Array is:", nums,"\n")
 def sort(nums):
     for i in range(len(nums)):
         minpos = i
@@ -11,9 +11,9 @@ def sort(nums):
         nums[i] = nums[minpos]
         nums[minpos] = temp
 
-        print(nums)
+        print("\t\t", nums)
 
 
 sort(nums)
 
-print(nums)
+print("\t\n The Final Sorted Array is:",nums)
