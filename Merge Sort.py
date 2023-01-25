@@ -9,4 +9,8 @@ def merge(arr):
         merge(left_arr)
         merge(right_arr)
 
-        
+        i=0
+        j=0
+        k=0
+        while i < len(left_arr) and j < len(right_arr):
+
