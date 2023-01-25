@@ -10,3 +10,4 @@ def quick(arr, left, right):
 def partition(arr, left, right):
     i = left
     j = right - 1
+    pivor = arr[right]
