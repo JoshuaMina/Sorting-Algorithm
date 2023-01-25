@@ -6,3 +6,7 @@ def quick(arr, left, right):
         partition_pos = partition(arr,left, right)
         quick(arr, left, partition_pos-1)
         quick(arr, partition_pos+1, right)
+
+def partition(arr, left, right):
+    i = left
+    j = right - 1
