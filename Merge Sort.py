@@ -3,3 +3,4 @@ print("\t The Given Unsorted Array is:", nums,"\n")
 
 def merge(arr):
     if len(arr) > 1:
+        left_arr = arr[:len(arr)//2]
